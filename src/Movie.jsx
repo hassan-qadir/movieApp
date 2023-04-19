@@ -32,7 +32,7 @@ const Movie = () => {
      
     return (
     <>
-     <div className="container mt-3">
+     <div className="container mt-4">
     <div className="row d-flex justify-content-center text-center">
     <div className="col-lg-12 col-md-12 col-12 p-4">   
     <img src={movie.Poster} alt="image"/>
