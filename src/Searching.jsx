@@ -8,7 +8,7 @@ const Searching = () => {
  if(loading){
   return(
     <>
-    <div className='text-center mb-4 mt-3'>
+    <div className='text-center mb-4 mt-4'>
     <h2 className='mb-2 text-white' style={{fontFamily:'roman'}}>Search Your Favourite Movie</h2>
        <div className="search">
                  <input type="text" placeholder="Search" value={searching} onChange={(e) => setSearching(e.target.value)}/>
